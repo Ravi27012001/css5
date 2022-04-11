@@ -1,0 +1,43 @@
+html{
+    background-color: yellow;
+}
+b{
+    font-size: 30px;
+}
+.class1{
+    margin: auto;
+text-align: center;
+display:flex;
+align-items: flex-start;
+flex-direction: column;
+justify-content: flex-start;
+align-self: center;
+position:absolute;
+left: 45vw;
+}
+.class{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(82, 242, 82);
+    transition-property: all;
+    transition-duration: 2s;
+    
+}
+.class2:hover{
+width: 200px;
+}
+ .class3:hover{
+     width: 200px;
+     height: 200px;
+ } 
+ .class:hover{
+     width: 200px;
+ }
+ a{
+     text-align: center;
+ }
+ .class5{
+     font-weight: bold;
+     font-size: 30px;
+ }

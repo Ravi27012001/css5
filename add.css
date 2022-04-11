@@ -1,0 +1,150 @@
+html{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.class3{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    /* transform :rotateZ(-30deg) ;
+    transition-property: all; */
+     animation-name: ravikant;
+     animation-duration: 4s;
+
+     animation-iteration-count: infinite;
+}
+.class2{
+    margin: auto;
+    width: 35vw;
+    display: flex;
+    justify-content:space-between;
+  }
+  @keyframes ravikant{
+0%{
+transform:skew(30deg) ;
+}
+50%{
+transform:skew(-30deg);
+}
+ 100%{
+    transform:skew(30deg);
+ }  
+}
+.class4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(188, 121, 19);
+    animation-name: ravikant1;
+     animation-duration: 4s;
+
+     animation-iteration-count: infinite;
+}
+@keyframes ravikant1{
+    0%{
+    transform:skewY(30deg) ;
+    }
+    50%{
+    transform:skewY(-30deg);
+    }
+     100%{
+        transform:skewY(30deg);
+     }  
+    }
+.class5{
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+        animation-name: ravikant2;
+        transform: rotate(360deg);
+         animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes ravikant2{
+        0%{
+        transform: rotate(0deg);
+         
+        }
+        50%{
+            transform: rotate(360deg);
+        
+        }
+         100%{
+        transform: rotate(0deg);
+           
+         }  
+        }
+
+.class6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(90, 90, 176);
+    border: 2px solid rgb(7, 7, 247);
+    animation-name: ravikant3;
+    transition-property: all;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+     
+
+}
+@keyframes ravikant3{
+    from{
+        height: 50px;
+    }
+    to{
+        height:100px;
+    }
+}
+.class7{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(114, 176, 90);
+    border: 2px solid rgb(19, 233, 8);
+    animation-name: ravikant4;
+    transition-property: all;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+     
+
+}
+@keyframes ravikant4{
+    from{
+        width: 50px;
+    }
+    to{
+        width:100px;
+    }
+}
+.class8{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(176, 90, 144);
+    border: 2px solid rgb(233, 8, 154);
+    animation-name: ravikant5;
+    transition-property: all;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+     
+
+}
+@keyframes ravikant5{
+    0%{
+        transform:rotate(90deg)
+    }
+    50%{
+        transform:rotate(-180deg) ;
+    }
+    100%{
+        transform:rotate(90deg) ;
+
+    }
+}
+a{
+    text-align: center;
+}
+.class10{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(241, 17, 253);
+}
